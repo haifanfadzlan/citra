@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majalah Ulang Tahun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2; /* Background pink muda */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #ff4d94; /* Judul warna pink */
+            margin-top: 20px;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .photos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .photos img {
+            max-width: 45%;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+        .video-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        button {
+            background-color: #ff4d94;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #ff3385;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selamat Ulang Tahun, Citraa!</h1>
+
+    <!-- Bagian 1 - Tema Pink -->
+    <div class="section">
+        <h2>Selamat Ulang Tahun!</h2>
+        <p>Semoga hari-hari kamu penuh kebahagiaan dan cinta. Ini adalah halaman spesial untuk kamu!</p>
+    </div>
+
+    <!-- Bagian 2 - Foto-foto -->
+    <div class="section">
+        <h2>Kenangan Manis</h2>
+        <div class="photos">
+            <!-- Ganti dengan URL foto yang diupload -->
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <img src="foto3.jpg" alt="Foto 3">
+            <img src="foto4.jpg" alt="Foto 4">
+        </div>
+    </div>
+
+    <!-- Bagian 3 - Video ucapan -->
+    <div class="section video-container">
+        <h2>Video Ucapan</h2>
+        <video width="600" controls>
+            <source src="path_to_video.mp4" type="video/mp4">
+            Browser Anda tidak mendukung video tag.
+        </video>
+    </div>
+
+    <div class="section">
+        <button onclick="alert('Selamat Ulang Tahun! Semoga Bahagia!')">Pencet Aja</button>
+    </div>
+</body>
+</html>
